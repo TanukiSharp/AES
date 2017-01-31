@@ -1,0 +1,13 @@
+*.xproj.user
+Aes/bin/
+Aes/obj/
+launchSettings.json
+project.lock.json
+.vs/
+
+Aes/GitCommitHash.cs
+Aes.UnitTests/bin/
+Aes.UnitTests/obj/
+Aes.TestApp/bin/
+Aes.TestApp/obj/
+Aes.TestApp/tests/
