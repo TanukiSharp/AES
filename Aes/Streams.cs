@@ -270,7 +270,6 @@ namespace Aes
         {
             if (innerStream.Length > 0)
             {
-                Console.WriteLine();
                 Console.Write(BeginDataMarker);
                 if (innerStream.TryGetBuffer(out ArraySegment<byte> buffer))
                     Console.Write(encoding.GetString(buffer.Array, buffer.Offset, buffer.Count));

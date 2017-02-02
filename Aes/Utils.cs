@@ -1,5 +1,5 @@
 ﻿#if DEBUG
-#define IN_MEMORY
+//#define IN_MEMORY
 #endif
 
 using System;

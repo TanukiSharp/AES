@@ -4,6 +4,10 @@
     <AssemblyName>Aes</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netcoreapp1.1' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/TanukiSharp/AES/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/TanukiSharp/AES</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TanukiSharp/AES</RepositoryUrl>
+    <PackageTags>aes cryptography security</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.Security.Cryptography.Algorithms">
@@ -23,6 +27,11 @@
   </ItemGroup>
   <PropertyGroup Label="Configuration">
     <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <Version>1.0.1</Version>
+    <Authors>Sebastien ROBERT</Authors>
+    <Company />
+    <Description>A cross-platform application to encrypt and decrypt data using the AES algorithm</Description>
+    <Copyright>Sebastien ROBERT</Copyright>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DefineConstants>$(DefineConstants);RELEASE</DefineConstants>
